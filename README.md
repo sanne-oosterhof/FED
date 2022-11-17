@@ -56,30 +56,56 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 1e werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen:
-
+  Sommige tekst werd niet voorgelezen (kan ook aan screenreader liggen)
+  Er wordt duidelijk aangegeven met de screenreader waar je bent en wat je kunt doen
+  Er is een 'skip to content' bij gebruik van de tab toets
+  De tab toets gaat niet langs het menu aan de rechterkant op de kandidaten pagina
+  Bij kleurenblindheid zien de meeste afbeeldingen er erg vies uit
+  
   #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Roos heeft met behulp van de screenreader van haar macbook de site van Heel Holland Bakt getest. 
+  Tijdens deze test hadden we alle mogelijke opties van de screenreader aangezet, zodat deze echt
+  alles voorleest. De belangrijkste uitkomsten van deze test zijn dat het meeste goed wordt 
+  voorgelezen, alleen het menu op de kandidaten pagina wordt overgeslagen.  
+  <img src="images/test-roos.png" width="375px" alt="Screenreader test van de Heel Holland Bakt site met Roos">
+  
+  Dit kan opgelost worden door het menu wel voor te laten lezen, of het menu wellicht op
+  een andere plek te zetten waardoor het automatisch wordt meegenomen door de 
+  screenreader. 
 
 
   #### Muis en Toetsenbord 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Door middel van de tab toets heeft Roos de website getest op toegankelijkheid. Wat gelijk opviel
+  was een 'skip to content' link die bovenin het scherm verscheen. Deze werkte ook erg goed bij 
+  gebruik en ging gelijk door naar de content. Bij deze test kwam hetzelfde naar voren als bij
+  de screenreader test, namelijk dat het menu op de kandidaten pagina wordt overgeslagen.
+  Hierdoor werkt de hover van de knopen op die plek ook niet.
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Dit kan opgelost worden door het menu wellicht op een andere plek te zetten waardoor 
+  het automatisch wordt meegenomen door de tab toets. 
 
 
   #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  De motoriek hebben we kort getest door met een haarklip om 2 vingers de website te gebruiken.
+  Dit ging redelijk goed, vooral omdat de tab toets erg goed werkt. Als er iets niet lukte, lag
+  dit vooral aan de touchpad van de laptop zelf dan aan het ontwerp van de website. De scrollbar
+  aan de zijkant werkte ook erg goed. 
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Er is niks wat opgelost hoeft te worden, aangezien alles prima werkt.
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Met behulp van de wazige bril, de bril met 2 kleine kijkgaatjes en de inspector van google chrome
+  hebben we de website getest. Tijdens de test met de wazige bril ging Roos vooral heel dicht
+  naar het scherm toe, om iets te kunnen lezen. Een aantal dingen waren totaal niet te lezen: 
+  de knoppen, kleine tekst onder de koppen en de navigatiebalk. Bij de bril met 2 kleine gaatjes 
+  keek Roos vooral met 1 oog naar de webiste, waardoor alles prima te zien was. Ik heb de
+  kleurenblindheid protanopia, deuteranopia, tritanopia en achromatopsia getest op de website. 
+  Hieruit bleek vooral dat de afbeeldingen een erg vieze kleur kregen, maar de tekst overal
+  goed te lezen was met een goed contrast.
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Dit kan opgelost worden door de afbeeldingen een minder felle kleur te geven, zodat mensen
+  met kleurenblindheid het minder heftig zien en het minder vies wordt. 
 
 </details>
 
@@ -273,8 +299,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-  1. bron 1
-  2. bron 2
+  1. Heel Holland Bakt (https://www.heelhollandbakt.nl/)
+  2. ...
   3. ...
 
 </details>
