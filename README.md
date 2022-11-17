@@ -67,7 +67,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Tijdens deze test hadden we alle mogelijke opties van de screenreader aangezet, zodat deze echt
   alles voorleest. De belangrijkste uitkomsten van deze test zijn dat het meeste goed wordt 
   voorgelezen, alleen het menu op de kandidaten pagina wordt overgeslagen.  
-  <img src="images/test-roos.png" width="375px" alt="Screenreader test van de Heel Holland Bakt site met Roos">
+  <img src="images/test-roos.jpg" width="375px" alt="Screenreader test van de Heel Holland Bakt site met Roos">
   
   Dit kan opgelost worden door het menu wel voor te laten lezen, of het menu wellicht op
   een andere plek te zetten waardoor het automatisch wordt meegenomen door de 
