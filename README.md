@@ -145,9 +145,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  Kyra:
-  - 
-  - 
+  Kyra: 
+  - ...
   - 
 
   Lotte:
@@ -160,9 +159,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - Linkjes apart stylen met een class?
   - Moet de achtergrond hetzelfde? 
 
-  Jelle: 
-  - 
-  - 
+  Jelle:  
+  - ...
   - 
 
   <!-- | Kyra           | Lotte                    | Sanne                               | Jelle?           |
