@@ -146,22 +146,23 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   samen met je groepje opstellen
 
   Kyra: 
-  - ...
-  - 
+  - Witregels van tekst aanpassen
+  - Buttons op de manier van de website plaatsen
 
   Lotte:
   - Afbeeldingen als tegels
   - Afstand van de tekst
+  - Of de HTML helemaal klopt   
 
   Sanne:
-  - Klopt mijn HTML helemaal  
+  - Of de HTML helemaal klopt   
   - Header in het wit ipv roze?  
   - Linkjes apart stylen met een class?
   - Moet de achtergrond hetzelfde? 
 
   Jelle:  
-  - ...
-  - 
+  - Hoe insta feed toevoegen aan homepagina of dit oplossen 
+  
 
   <!-- | Kyra           | Lotte                    | Sanne                               | Jelle?           |
   | ---            | Afbeeldingen als tegels  | Klopt mijn HTML helemaal            | ---              |
