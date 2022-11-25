@@ -1,6 +1,7 @@
 /**************/
 /* CSS REMEDY */
 /**************/
+
 *, *::after, *::before {
   box-sizing:border-box;  
 }
@@ -11,24 +12,175 @@ button, summary {
 
 
 
-
-
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
 :root {
 	/* startje */
 	--color-text:#111;
-	--color-background:#eee;
+	--color-nav-text: #4d5157;
+	--color-wit: white;
+	--color-background:#f4f4f4;
+	--color-roze: #EDCDCE;
+	--color-hover-quiz-button: #FAEDEF;
+	--color-donker-roze: #ce4359; 
+	--color-groen: #aed5d0;
+	--color-groen-footer: #00716e;
 }
 
 
 
+/****************/
+/*     BODY    */
+/****************/
+
+@font-face {
+	font-family: poppins;
+	src: url(fonts/Poppins-Regular.ttf);
+}
+
+body{
+	background-color: var(--color-background);
+	font-family: poppins, sans-serif;
+	margin: 0em;
+}
+
 
 
 /****************/
-/* JOUW STYLING */
+/*    HEADER    */
+/****************/
+/* header{
+	
+} */
+
+nav{
+	position: fixed;
+	background-color: var(--color-wit);
+	width: 100%;
+	top: 0;
+}
+
+nav img{
+	width: 6.2em;
+}
+
+nav ul{
+	display: flex;
+	justify-content: space-around;
+	/* width zorgt ervoor dat nav items soortvan links blijven.. maar moeten op 1 plek blijven */
+	width: 70%;
+  }
+
+nav ul li{
+	list-style-type: none;
+	}
+
+nav ul li a{
+	text-decoration: none;
+    color: var(--color-nav-text);
+}
+
+nav ul li a:hover{
+	color: var(--color-text);
+}
+
+
+
+/****************/
+/*     MAIN     */
 /****************/
 
-/* jouw code */
+main{
+	margin-top: 7.5em;
+}
 
+img{
+	width: 21em;
+	border-radius: 0.625rem;
+}
+
+section:first-of-type{
+	display: flex;
+	padding: 1em;
+	background-color: var(--color-donker-roze);
+    color: white;
+}
+
+section p:first-of-type{
+	font-weight: bold;	
+}
+
+section a{
+	color: var(--color-donker-roze);
+	background-color: var(--color-wit);
+	text-decoration: none;      
+	border-radius: .4em;
+	padding: .3em;
+	max-width: 6em;
+}
+
+section a:first-of-type{
+	/* moet eigenlijk aan de rechterkant blijven  */
+	margin-left: 15em;
+}
+
+section a:hover{
+	background-color: var(--color-hover-quiz-button);
+	transition: all 300ms ease;
+}
+
+/* Dit moet alleen voor de bovenste afbeelding? */
+section img:hover{
+	transition: all 200ms ease;
+	transform: scale(.98);
+}
+
+section:nth-child(3){
+	background-color: var(--color-groen);
+}
+
+section:nth-child(5){
+	background-color: var(--color-roze);
+}
+
+section ul{
+	list-style-type: none;
+}
+
+/****************/
+/*    E-MEEL    */
+/****************/
+
+
+
+section form input:nth-child(2){
+    padding: .6em;
+	border-radius: 5em;
+	border: none;
+	font-size: 1.25em;
+}
+
+section form input:nth-child(3){
+	background-color: var(--color-donker-roze);
+	color: var(--color-wit);
+    padding: .6em;
+	border-radius: 5em;
+	border: none;
+	font-size: 1.25em;
+}
+
+/****************/
+/*    FOOTER    */
+/****************/
+
+footer{
+	border-top: 0.6em solid var(--color-groen-footer);
+	background-color: var(--color-donker-roze);
+	color: var(--color-wit);
+	padding-top: 4.3em;
+}
+
+footer img{
+	width: 8.8em;
+}
