@@ -138,18 +138,19 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+  Ik denk dat de HTML maken op basis van mijn breakdownschetsen best goed ging. Alhoewel ik niet helemaal zeker ben of alles
+  klopt. Wat ik lastig vind is de CSS en om dit werkend te krijgen zonder id's en classes. 
+  <img src="images/html-home.jpg" width="375px" alt="deel van mijn HTML">
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
+  | Kyra           | Lotte                    | Sanne                               | Jelle?           |
+  | ---            | Afbeeldingen als tegels  | Klopt mijn HTML helemaal            | ---              |
+  | dit bespreken  | Afstand van de tekst     | Header in het wit ipv roze?         | en dan ik dat    |
+  | en dat ook nog | ...                      | Linkjes apart stylen met een class? | dit wil ik zeker |
+  | ...            | ...                      | Moet de achtergrond hetzelfde?      | ...              |
+   
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
