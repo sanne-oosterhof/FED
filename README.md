@@ -145,11 +145,31 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | Kyra           | Lotte                    | Sanne                               | Jelle?           |
+  Kyra:
+  - 
+  - 
+  - 
+
+  Lotte:
+  - Afbeeldingen als tegels
+  - Afstand van de tekst
+
+  Sanne:
+  - Klopt mijn HTML helemaal  
+  - Header in het wit ipv roze?  
+  - Linkjes apart stylen met een class?
+  - Moet de achtergrond hetzelfde? 
+
+  Jelle: 
+  - 
+  - 
+  - 
+
+  <!-- | Kyra           | Lotte                    | Sanne                               | Jelle?           |
   | ---            | Afbeeldingen als tegels  | Klopt mijn HTML helemaal            | ---              |
   | dit bespreken  | Afstand van de tekst     | Header in het wit ipv roze?         | en dan ik dat    |
   | en dat ook nog | ...                      | Linkjes apart stylen met een class? | dit wil ik zeker |
-  | ...            | ...                      | Moet de achtergrond hetzelfde?      | ...              |
+  | ...            | ...                      | Moet de achtergrond hetzelfde?      | ...              | -->
    
 
   ### Verslag van meeting
