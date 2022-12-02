@@ -157,11 +157,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Sanne:
   - Of de HTML helemaal klopt   
   - Header in het wit ipv roze?  
-  - Linkjes apart stylen met een class?
+  - Linkjes apart stylen?
   - Moet de achtergrond hetzelfde? 
 
   Jelle:  
   - Hoe insta feed toevoegen aan homepagina of dit oplossen 
+  - Welke heading aan de footer geven?
   
 
   <!-- | Kyra           | Lotte                    | Sanne                               | Jelle?           |
@@ -174,10 +175,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Voor nu kan ik de header wit houden, misschien als ik tijd over heb ook roze maken.
+  - Mijn HTML is zo goed als semantisch
+  - Als ik uitdaging wil de H3 voor de img laten staan, vervolgens met CSS omdraaien.  
+  - De 2 HTML pagina's mogen een class, om ze zo verschillend van elkaar te kunnen stylen.
+  - De buttons moet ik specifieker stylen, zodat ze niet allemaal tegelijk gaan. 
+  - Achtergrond met de roze golf voor nu achterwege laten, misschien als ik tijd over heb.
 
 </details>
 
@@ -197,19 +200,35 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
+  Kyra: 
+  - 
+  - 
+
+  Lotte:
+  - 
+  -  
+
+  Sanne:
+  - Of de CSS goed op volgorde staat 
+  - In hoeverre alles overeen moet komen met de echte website (witruimte, font,..)
+  - Kan ik zo een menu maken als in de header? Of mag ik die overslaan
+
+  Jelle:  
+  - 
+  - 
+
+  <!-- | student 1      | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
   | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | ...            | ...                | ...          | ...              | -->
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
+- ... 
+- ...
 - ...
 
 </details>

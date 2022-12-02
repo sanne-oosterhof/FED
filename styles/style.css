@@ -10,13 +10,28 @@ button, summary {
 	cursor: pointer;
 }
 
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+img, picture{
+	display: block;
+	/* max-width: 100%; */
+}
+
+ul, ol {
+	margin: 0;
+	padding: 0;
+}
+
 
 
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
 :root {
-	/* startje */
+	/* LICHT THEMA */
 	--color-text:#111;
 	--color-nav-text: #4d5157;
 	--color-wit: white;
@@ -25,9 +40,24 @@ button, summary {
 	--color-hover-quiz-button: #FAEDEF;
 	--color-donker-roze: #ce4359; 
 	--color-groen: #aed5d0;
+	--color-groen-half: linear-gradient(0deg, rgba(244,244,244,1) 30%, rgba(174,213,208,1) 30%);
 	--color-groen-footer: #00716e;
 }
 
+	/* DONKER THEMA */
+/* @media (prefers-color-scheme dark) {
+	:root{
+		--color-text:#111;
+		--color-nav-text: #4d5157;
+		--color-wit: white;
+		--color-background:#121212;
+		--color-roze: #EDCDCE;
+		--color-hover-quiz-button: #FAEDEF;
+		--color-donker-roze: #ce4359; 
+		--color-groen: #aed5d0;
+		--color-groen-footer: #00716e;
+	}
+} */
 
 
 /****************/
@@ -42,7 +72,8 @@ button, summary {
 body{
 	background-color: var(--color-background);
 	font-family: poppins, sans-serif;
-	margin: 0em;
+	margin: 0;
+	padding: 0;
 }
 
 
@@ -50,30 +81,76 @@ body{
 /****************/
 /*    HEADER    */
 /****************/
-/* header{
-	
-} */
+
+header{
+	position:sticky;
+    top:0;
+	z-index: 1000;
+}
 
 nav{
-	position: fixed;
+	display: flex;
+	justify-content: space-between;
+	padding: 1.2em;
 	background-color: var(--color-wit);
 	width: 100%;
+	margin-right: 1em;
 	top: 0;
 }
 
-nav img{
-	width: 6.2em;
+nav a img:first-of-type{
+	height: 3.7em;
 }
 
+nav button img{
+	width:2.7em;
+}
+
+nav button{
+	/* top: 6em; */
+	z-index:1000; 
+	padding:.5em;
+	background: none;
+	border: none;
+	width: 4em;
+	position:relative;
+}
+
+/* als menu open is */
+nav.toonMenu button img {
+	/* url kruisje: https://assets.codepen.io/274456/ui-icon-cross.svg */
+	content:url(../images/menu-kruisje.png);
+	
+  }
+
 nav ul{
-	display: flex;
-	justify-content: space-around;
-	/* width zorgt ervoor dat nav items soortvan links blijven.. maar moeten op 1 plek blijven */
-	width: 70%;
+	background-color: var(--color-wit);
+	display:flex;
+  	flex-wrap:wrap;
+  	gap:1em;
+  	align-content:start;
+	position:fixed;
+ 	left:0;
+  	right:0;
+  	top:6em;
+  	bottom:0;
+	transform:translatex(100%);
+	transition:transform .3s;
+
+}
+
+/* als het menu open is */
+nav.toonMenu ul {
+	transform:translatex(0);
+	flex-direction: column;
+	
   }
 
 nav ul li{
 	list-style-type: none;
+	padding-right: 1.5em;
+	/* flex-basis:9em;
+    flex-grow:1; */
 	}
 
 nav ul li a{
@@ -85,83 +162,166 @@ nav ul li a:hover{
 	color: var(--color-text);
 }
 
+/*************************/
+/*    MAIN  ALGEMEEN     */
+/*************************/
 
+/* main{
+	padding-bottom: 5em;
+} */
 
-/****************/
-/*     MAIN     */
-/****************/
-
-main{
-	margin-top: 7.5em;
-}
-
-img{
+main img{
 	width: 21em;
 	border-radius: 0.625rem;
 }
 
-section:first-of-type{
+/*************************/
+/*    MAIN  1e PAGINA    */
+/*************************/
+
+.main-pagina section ul{
+	list-style-type: none;
+}
+
+.main-pagina section:first-of-type{
 	display: flex;
 	padding: 1em;
 	background-color: var(--color-donker-roze);
     color: white;
 }
 
-section p:first-of-type{
+.main-pagina section p:first-of-type{
 	font-weight: bold;	
+	color: var(--color-wit);
 }
 
-section a{
+/* section 1 kom je op ons verjaardagsfeest? */
+.main-pagina section:nth-of-type(1) a{
 	color: var(--color-donker-roze);
 	background-color: var(--color-wit);
 	text-decoration: none;      
 	border-radius: .4em;
 	padding: .3em;
-	max-width: 6em;
 }
 
-section a:first-of-type{
-	/* moet eigenlijk aan de rechterkant blijven  */
-	margin-left: 15em;
-}
-
-section a:hover{
+.main-pagina section:nth-of-type(1) a:hover{
 	background-color: var(--color-hover-quiz-button);
 	transition: all 300ms ease;
 }
 
-/* Dit moet alleen voor de bovenste afbeelding? */
-section img:hover{
+/* section 2 bakken voor pakjesavond */
+.main-pagina section:nth-of-type(2){
+	display: flex;
+	flex-direction: column-reverse;
+	margin-bottom: 8em;
+}
+
+.main-pagina section:nth-of-type(2) a{
+	color: var(--color-wit);
+	background-color: var(--color-donker-roze);
+	text-decoration: none; 
+	font-weight: bold;  
+	text-transform: uppercase;
+	border-radius: .4em;
+	padding: .5em;
+	width: 9em;
+}
+
+.main-pagina section:nth-of-type(2) h1 {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.main-pagina section:nth-of-type(2) h1 span{
+	color: var(--color-donker-roze);
+	text-decoration: none;  
+	padding-right: .4em; 
+}
+
+.main-pagina main section:nth-of-type(2) img:first-of-type{
+	box-shadow: 10px 10px 0px 0px rgba(255,255,255,1);
+}
+
+.main-pagina main section:nth-of-type(2) img:first-of-type:hover{
 	transition: all 200ms ease;
 	transform: scale(.98);
 }
 
-section:nth-child(3){
+/* section 3 de laatste artikelen */
+.main-pagina main section:nth-of-type(3) ul{
+	margin-inline: 1rem;
+	display: grid;
+	grid-template-columns: 50% 50%;
+	gap: 1em;
+	margin-right: 2em;
+	margin-left: 2em;
+}
+
+.main-pagina main section:nth-of-type(3) > img:first-of-type{
+	position: relative;
+	z-index: 0;
+	top: -3.2em;
+}
+
+.main-pagina main section:nth-of-type(3) ul li{
+	display: flex;
+	flex-direction: column-reverse ;
+	background-color: var(--color-wit);
+	border: .05em solid var(--color-nav-text);
+	border-radius: 2em;
+	padding: 1em;
+}
+
+.main-pagina main section:nth-child(3){
 	background-color: var(--color-groen);
 }
 
-section:nth-child(5){
+.main-pagina main section:nth-of-type(3) ul{
+	display: grid;
+	justify-content: center;
+	grid-template-columns: 1fr;
+	grid-template-columns: repeat(1, minmax(auto, 23em));
+	column-gap: 1em;
+	row-gap: 1em;
+	margin-right: 2em;
+	margin-left: 2em;
+}
+
+/* section 4 tips voor de perfecte appeltaart */
+.main-pagina section:nth-child(4){
+	background-color: var(--color-background);
+	padding-bottom: 5em;
+}
+
+.main-pagina section:nth-child(4) p{
+	color: var(--color-text);
+}
+
+/* section 5 E-meel */
+.main-pagina section:nth-child(5){
 	background-color: var(--color-roze);
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 3em;
 }
 
-section ul{
-	list-style-type: none;
+.main-pagina section:nth-child(5) p{
+	color: var(--color-nav-text);
 }
 
-/****************/
-/*    E-MEEL    */
-/****************/
+.main-pagina section:nth-child(5) img{
+	justify-content: center;
+}
 
-
-
-section form input:nth-child(2){
+/* section 5 E-meel FORM */
+.main-pagina section form input:nth-child(2){
     padding: .6em;
 	border-radius: 5em;
 	border: none;
 	font-size: 1.25em;
 }
 
-section form input:nth-child(3){
+.main-pagina section form input:nth-child(3){
 	background-color: var(--color-donker-roze);
 	color: var(--color-wit);
     padding: .6em;
@@ -169,6 +329,54 @@ section form input:nth-child(3){
 	border: none;
 	font-size: 1.25em;
 }
+
+
+
+/*************************/
+/*    MAIN  2e PAGINA    */
+/*************************/
+
+/* section 1  kandidaten*/
+.kandidaten-pagina main section:nth-of-type(1){
+	background: var(--color-groen-half);
+	display: flex;
+	flex-direction: column;
+}
+
+.kandidaten-pagina main section:nth-of-type(1) h1,p{
+	color: var(--color-text);
+}
+
+.kandidaten-pagina main section:nth-of-type(1) img:first-of-type{
+	box-shadow: 10px 10px 0px 0px rgba(255,255,255,1);
+}
+
+.kandidaten-pagina main section:nth-of-type(1) img:first-of-type:hover{
+	transition: all 200ms ease;
+	transform: scale(.98);
+}
+
+/* section 2 even voorstellen */
+.kandidaten-pagina main section:nth-of-type(2) ul{
+	display: grid;
+	justify-content: center;
+	grid-template-columns: 1fr 1fr;
+	grid-template-columns: repeat(2, minmax(auto, 23em));
+	column-gap: 1em;
+	row-gap: 1em;
+	margin-right: 2em;
+	margin-left: 2em;
+}
+
+.kandidaten-pagina main section:nth-of-type(2) ul li{
+	display: flex;
+	flex-direction: column-reverse ;
+	background-color: var(--color-wit);
+	border: .05em solid var(--color-nav-text);
+	border-radius: 2em;
+	padding: 1em;
+}
+
 
 /****************/
 /*    FOOTER    */
@@ -179,8 +387,83 @@ footer{
 	background-color: var(--color-donker-roze);
 	color: var(--color-wit);
 	padding-top: 4.3em;
+	padding-bottom: 4em;
+	padding-left: 2em;
 }
 
 footer img{
 	width: 8.8em;
+	margin-bottom: 3em;
+}
+
+footer ul{
+	list-style-type: none;
+}
+
+footer ul li a{
+	color: var(--color-wit);
+	text-decoration: none;
+}	
+
+
+
+/****************************************************************/
+/* styling voor de header als de browser minimaal 48em breed is */
+/****************************************************************/
+
+@media (min-width:48em) {
+	nav {
+	  order:0;  
+	  position: sticky;
+	  justify-content: left;
+	}
+	
+	nav button {
+	  display:none;
+	}
+	
+	nav ul {
+	  position:static;
+	  transform:none;
+	  padding:0;
+	  background:none;
+	}
+	
+	nav li {
+	  flex-basis:unset;
+	  flex-grow:unset;
+	}
+	
+	nav a {
+	  flex-direction:column;
+	}
+
+	.main-pagina main section:nth-of-type(3) ul{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-columns: repeat(2, minmax(auto, 23em));
+		
+	}
+
+	footer{
+		display: flex;
+		justify-content: space-around;
+		padding-top: 7em;
+		padding-bottom: 8em;
+	}
+
+	footer ul{
+		list-style-type: none;
+	}
+}
+
+/****************************************************************/
+/* styling voor de header als de browser minimaal 48em breed is */
+/****************************************************************/
+
+@media (min-width:65em) {
+	.kandidaten-pagina main section:nth-of-type(2) ul{
+		display: grid;
+		grid-template-columns: repeat(3, minmax(auto, 23em))
+	}
 }
