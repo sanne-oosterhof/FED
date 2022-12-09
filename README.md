@@ -22,7 +22,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Blauw
 
   #### Je focus:
-  Surface plane
+  Responsive (en misschien deels surface plane)
  
 </details>
 
@@ -201,12 +201,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   samen met je groepje opstellen
 
   Kyra: 
-  - 
-  - 
+  - ..
+  - ..
 
   Lotte:
-  - 
-  -  
+  - ..
+  - ..
 
   Sanne:
   - Of de CSS goed op volgorde staat 
@@ -214,8 +214,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - Kan ik zo een menu maken als in de header? Of mag ik die overslaan
 
   Jelle:  
-  - 
-  - 
+  - ..
+  - ..
 
   <!-- | student 1      | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
@@ -227,9 +227,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- ... 
-- ...
-- ...
+- Mijn code is semantisch en CSS op een logische volgorde.
+- De echte website hoeft niet 1 op 1 overeen te komen, lastige stukken eventueel bewaren om te doen met tijd over.
+- Het menu in de header voor nu niet op focussen, want navigatie werkt. Maar met tijd over kan dit wel. 
 
 </details>
 
@@ -246,27 +246,22 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
   #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+ 
+  Werkt goed, alle links/knoppen worden voorgelzen
 
   #### Muis en Toetsenbord 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Kan met de tab toets door alle links/knoppen kan op enter drukken om naar een andere pagina te navigeren
 
 
   #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  met elastiekjes op de vingers is het geen probleem om door de site te navigeren. 
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Met de wazige bril zijn de koppen wel leesbaar maar de tekst er onder is niet leesbaar. De tekst op de roze achtergrond en witte tekst valt weg in de achtergrondskleur.
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Met de kleurenblindbril is alles gewoon goed zichtbaar het contrast is nog steeds duidelijk, hierdoor is alles leesbaar. De kleuren veranderen wel maar heeft dus geen invloed dat de gebruiker informatie niet kan zien/lezen.
 
 </details>
 
@@ -280,26 +275,42 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 3e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+  Wat goed ging was het verder werken aan de CSS. Ik vond het erg lastig wanneer ik ergens mee bezig was en het niet werkte, waardoor ik soms best wel gefrustreerd werd. 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
+   Kyra: 
+  - ...
+  - ...
+
+  Lotte:
+  - ...
+  - ...
+
+  Sanne:
+  - Hoe kan ik de navigatie het beste namaken, zodat het er enigzins op het origineel lijkt. 
+  - Kan ik het dropdown menu stylen zodat het erop lijkt. 
+  - In hoeverre moet het helemaal responsive zijn?
+
+  Jelle:  
+  - ...
+  - ...
+
+
+  <!-- | student 1      | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
   | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | ...            | ...                | ...          | ...              | -->
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Nog steeds goed op weg
+  - Navigatie moet wel lukken om na te maken, al deels tijdens de les kunnen doen
+  - Meer focussen op grote dingen van de website, vergeleken met kleine details. Dat als laatste doen. 
 
 </details>
 
@@ -340,7 +351,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
   1. Heel Holland Bakt (https://www.heelhollandbakt.nl/)
-  2. ...
-  3. ...
+  2. Voor het menu (https://codepen.io/shooft/pen/jOzvRvm)
+  3. Voor de mooie button animaties (https://codepen.io/robertspier/pen/zYaeMKP?editors=1100)
+  4. Voor header schaduw (https://www.cssmatic.com/box-shadow)
+  5. Select tag toepassen (https://www.w3schools.com/tags/tag_select.asp)
+  6. ...
 
 </details>
