@@ -322,7 +322,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/uitkomst-pagina1.png" width="375px" alt="uitomst pagina 1">
+  <img src="images/uitkomst-pagina1.png" width="375px" alt="uitomst pagina 1">
   <img src="readme-images/uitkomst-pagina2.png" width="375px" alt="uitomst pagina 2">
 
   ### Dit ging goed/Heb ik geleerd: 
@@ -330,15 +330,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   was de media query. Ik vond het erg leuk om de site responsive te maken, terwijl ik in eerste instantie voor surface plane had gekozen. Uiteindelijk is het me gelukt om de site volledig responsive te maken en 
   daarnaast ook een aantal onderwerpen uit de surface plane toe te passen. Hieronder is bijvoorbeeld te zien hoe ik een klein deel responsive heb gemaakt, wat ik erg leuk vond om te doen. 
 
-  <img src="readme-images/appeltaart-responsive1.jpg" width="375px" alt="top">
-  <img src="readme-images/appeltaart-responsive2.jpg" width="375px" alt="top">
+  <img src="images/appeltaart-responsive1.jpg" width="375px" alt="top">
+  <img src="images/appeltaart-responsive2.jpg" width="375px" alt="top">
 
   ### Dit was lastig/Is niet gelukt:
   Het is niet gelukt om de roze/groene achtergrond te maken met de golvende afbeelding. Dit wilde ik doen als ik tijd over had, wat helaas niet gelukt is. Daarnaast heb ik mijn navigatiebalk standaard
   wit gemaakt, ipv bij het scrollen pas wit. Tot slot heb ik geprobeerd de witte balk bovenin het scherm na te maken, maar hier had ik niet genoeg tijd meer voor. Het staat nog wel in mijn HTML, om te laten
   zien dat ik het heb geprobeerd. 
 
-  <img src="readme-images/golvende-achtergrond.jpg" width="375px" alt="Roze achtergrond met golvende beweging op de originele website">
+  <img src="images/golvende-achtergrond.jpg" width="375px" alt="Roze achtergrond met golvende beweging op de originele website">
 </details>
 
 
