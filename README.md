@@ -22,7 +22,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Blauw
 
   #### Je focus:
-  Responsive (en misschien deels surface plane)
+  Responsive (en misschien surface plane)
  
 </details>
 
@@ -247,20 +247,18 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenreader
  
-  Werkt goed, alle links/knoppen worden voorgelzen
+  Werkt goed, alle links/knoppen worden voorgelzen. De afbeeldingen hebben ook een duidelijke alt tekst, wat uitleg geeft. 
 
   #### Muis en Toetsenbord 
 
-  Kan met de tab toets door alle links/knoppen kan op enter drukken om naar een andere pagina te navigeren
-
+  Kan met de tab toets door alle links/knoppen kan op enter drukken om naar een andere pagina te navigeren. Dit werkt dus goed, misschien nog wat meer aangepaste styling ervoor maken. 
 
   #### Motoriek (shocks, elastiekjes)
-  met elastiekjes op de vingers is het geen probleem om door de site te navigeren. 
 
+  Met elastiekjes op de vingers is het geen probleem om door de site te navigeren. Dit gaat dus helemaal goed en hoeft verder niks aan te veranderen. 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Met de wazige bril zijn de koppen wel leesbaar maar de tekst er onder is niet leesbaar. De tekst op de roze achtergrond en witte tekst valt weg in de achtergrondskleur.
-
+  Met de wazige bril zijn de koppen wel leesbaar maar de tekst eronder is niet leesbaar. De tekst op de roze achtergrond en witte tekst valt weg in de achtergrondskleur.
   Met de kleurenblindbril is alles gewoon goed zichtbaar het contrast is nog steeds duidelijk, hierdoor is alles leesbaar. De kleuren veranderen wel maar heeft dus geen invloed dat de gebruiker informatie niet kan zien/lezen.
 
 </details>
@@ -324,19 +322,23 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
-
+  <img src="readme-images/uitkomst-pagina1.png" width="375px" alt="uitomst pagina 1">
+  <img src="readme-images/uitkomst-pagina2.png" width="375px" alt="uitomst pagina 2">
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  Ik heb vanzelfsprekend tijdens dit vak erg veel geleerd, onder andere dat ik ook niet te lang door moet gaan met te kleine dingen. Wat ik het leukste vond en ook helemaal nieuw was voor mij, 
+  was de media query. Ik vond het erg leuk om de site responsive te maken, terwijl ik in eerste instantie voor surface plane had gekozen. Uiteindelijk is het me gelukt om de site volledig responsive te maken en 
+  daarnaast ook een aantal onderwerpen uit de surface plane toe te passen. Hieronder is bijvoorbeeld te zien hoe ik een klein deel responsive heb gemaakt, wat ik erg leuk vond om te doen. 
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
-
+  <img src="readme-images/appeltaart-responsive1.jpg" width="375px" alt="top">
+  <img src="readme-images/appeltaart-responsive2.jpg" width="375px" alt="top">
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  Het is niet gelukt om de roze/groene achtergrond te maken met de golvende afbeelding. Dit wilde ik doen als ik tijd over had, wat helaas niet gelukt is. Daarnaast heb ik mijn navigatiebalk standaard
+  wit gemaakt, ipv bij het scrollen pas wit. Tot slot heb ik geprobeerd de witte balk bovenin het scherm na te maken, maar hier had ik niet genoeg tijd meer voor. Het staat nog wel in mijn HTML, om te laten
+  zien dat ik het heb geprobeerd. 
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/golvende-achtergrond.jpg" width="375px" alt="Roze achtergrond met golvende beweging op de originele website">
 </details>
 
 
@@ -355,6 +357,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   3. Voor de mooie button animaties (https://codepen.io/robertspier/pen/zYaeMKP?editors=1100)
   4. Voor header schaduw (https://www.cssmatic.com/box-shadow)
   5. Select tag toepassen (https://www.w3schools.com/tags/tag_select.asp)
-  6. ...
+  6. Voor de link/button states (https://codepen.io/shooft/pen/yLKWzqy)
 
 </details>
