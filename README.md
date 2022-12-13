@@ -322,8 +322,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="images/uitkomst-pagina1.png" width="375px" alt="uitomst pagina 1">
-  <img src="readme-images/uitkomst-pagina2.png" width="375px" alt="uitomst pagina 2">
+  <img src="images/uitkomst-opdracht1.png" width="375px" alt="uitomst pagina 1">
+  <img src="readme-images/uitkomst-opdracht2.png" width="375px" alt="uitomst pagina 2">
 
   ### Dit ging goed/Heb ik geleerd: 
   Ik heb vanzelfsprekend tijdens dit vak erg veel geleerd, onder andere dat ik ook niet te lang door moet gaan met te kleine dingen. Wat ik het leukste vond en ook helemaal nieuw was voor mij, 
